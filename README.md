@@ -15,7 +15,7 @@ Notation:
 - T_1 and T_2 are binary indicators of stage 1 and 2 treatment, respectively with T_1 = 1 for A and 0 for B, T_2 = 1 for C and 0 for D
 - P_1 and P_2 are binary indicators of stage 1 and 2 preference, respectively
 
-Our goal is to estimate dynamic treatment regimens (DTRs) subject to treatment preference. We denote DTRs by [A_1A_1A_2]_{P_1P_2}, and there are 16 DTRs embedded in our PRPP-SMART design (i.e., the 4 traditional DTRs AAC, AAD, BBC, and BBD but within each preference combination). We extend frequentist weighted and replicated regression models (WRRMs) for traditional SMARTs to PRPP-SMARTs. We consider a reduced mean model (Model 1) and a more flexible mean model (Model 2):
+Our goal is to estimate dynamic treatment regimens (DTRs) subject to treatment preference. We denote DTRs by [A<sub>1</sub>A<sub>1</sub>A<sub>2</sub>]<sub>P<sub>1</sub>P<sub>2</sub></sub>, and there are 16 DTRs embedded in our PRPP-SMART design (i.e., the 4 traditional DTRs AAC, AAD, BBC, and BBD but within each preference combination). We extend frequentist weighted and replicated regression models (WRRMs) for traditional SMARTs to PRPP-SMARTs. We consider a reduced mean model (Model 1) and a more flexible mean model (Model 2):
 
 Model 1: E[[A_1A_1A_2]_{P_1P_2} | T_1, P_1, T_2, P_2] = &alpha;<sub>1</sub> + beta_1*T_1 + theta_1*T_2 + gamma_1*T_1*T_2 + delta_1*T_1 + delta_2*T_2
 Model 2: E[[A_1A_1A_2]_{P_1P_2} | T_1, P_1, T_2, P_2] = alpha_2 + beta_2*T_1 + theta_2*T_2 + gamma_2*T_1*T_2 + omega_B*T_1 + omega_A*T_1*P_1 + omega_D*T_2 + omega_C*T_2*P_2
