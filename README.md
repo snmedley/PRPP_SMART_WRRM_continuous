@@ -43,6 +43,7 @@ All three analytic methods are implemented in PRPP_SMART_WRRM_cts.R.
 
 Input:
 - Home Directory: set directory for file input by setting ```homedir```. All relevant files (data generation code, scenario .R files, etc.) must be in the same directory.
+- Output Directory: set directory for file output by setting ```outdir```. By default, this variable is set to ```homedir``` so that the input and output file directory are the same.
 - PRPP-SMART Sample Size: change the total trial size by setting ```N``` to an integer value.
 - Preference Rate Scenario: change the preference rate scenario by setting ```scenario``` = a, b, or c.
 - Preference Augmented DTR Effect Type: change the effect type by setting ```type``` = 1, 2, 3, or 4.
@@ -51,7 +52,9 @@ Input:
 - Other options fixed in the scenarios we consider such as intermediate response rates can also be changed. There is a description of input variables in the PRPP_SMART_DataGen_cts.R. 
 
 Output:
-- Output Directory: set directory for file output by setting ```outdir```. By default, this variable is set to NA so that the input and output file directory are the same.
+
 
   
 change R file so that it does analysis with all 3 models!
+
+add code to calculate expected sample size
