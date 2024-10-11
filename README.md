@@ -42,7 +42,7 @@ Traditional Analysis: E[[A<sub>1</sub>A<sub>1</sub>A<sub>2</sub>]<sub>00</sub> |
 All three analytic methods are implemented in PRPP_SMART_WRRM_cts.R. 
 
 Input:
-- Home Directory: set directory for file input and output by setting ```homedir```
+- Home Directory: set directory for file input and output by setting ```homedir```. All relevant files (data generation code, scenario .R files, etc.) must be in the same directory.
 - PRPP-SMART Sample Size: change the total trial size by setting ```N``` to an integer value.
 - Preference Rate Scenario: change the preference rate scenario by setting ```scenario``` = a, b, or c.
 - Preference Augmented DTR Effect Type: change the effect type by setting ```type``` = 1, 2, 3, or 4.
