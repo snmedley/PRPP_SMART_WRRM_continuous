@@ -17,5 +17,5 @@ Notation:
 
 Our goal is to estimate dynamic treatment regimens (DTRs) subject to treatment preference. We denote DTRs by [A_1A_1A_2]_{P_1P_2}, and there are 16 DTRs embedded in our PRPP-SMART design (i.e., the 4 traditional DTRs AAC, AAD, BBC, and BBD but within each preference combination). We extend frequentist weighted and replicated regression models (WRRMs) for traditional SMARTs to PRPP-SMARTs. We consider a reduced mean model (Model 1) and a more flexible mean model (Model 2):
 
-Model 1: E[[A_1A_1A_2]_{P_1P_2} | T_1, P_1, T_2, P_2] = alpha_1 + beta_1*T_1 + theta_1*T_2 + gamma_1*T_1*T_2 + delta_1*T_1 + delta_2*T_2
+Model 1: E[[A_1A_1A_2]_{P_1P_2} | T_1, P_1, T_2, P_2] = &alpha _1 + beta_1*T_1 + theta_1*T_2 + gamma_1*T_1*T_2 + delta_1*T_1 + delta_2*T_2
 Model 2: E[[A_1A_1A_2]_{P_1P_2} | T_1, P_1, T_2, P_2] = alpha_2 + beta_2*T_1 + theta_2*T_2 + gamma_2*T_1*T_2 + omega_B*T_1 + omega_A*T_1*P_1 + omega_D*T_2 + omega_C*T_2*P_2
