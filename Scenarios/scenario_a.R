@@ -1,4 +1,3 @@
-scenario = 1
 pNP_target=0.50 #  desired proportion of individuals expressing No Preference in stage 1
 pTheta_target=0.4 # desired proportion of individuals expressing preference for treatment A among those with a preference in stage 1
 pNP2_target=0.50 # desired proportion of patients expressing No Preference in stage 2 (among non-responders)
