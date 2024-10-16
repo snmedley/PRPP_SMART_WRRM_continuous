@@ -52,9 +52,7 @@ Input:
 - Other options fixed in the scenarios we consider such as intermediate response rates can also be changed. There is a description of input variables in the PRPP_SMART_DataGen_cts.R. 
 
 Output:
-
-
-  
-change R file so that it does analysis with all 3 models!
-
-add code to calculate expected sample size
+- Parameter estimation summary table for Model 1, Model 2, and the traditional analysis as separate CSV files
+- DTR estimation summary table for Model 1, Model 2, and the traditional analysis as separate CSV files
+- Confidence interval coverage for parameters and DTRs under Model 1, Model 2, and the traditional analysis as separate CSV files
+- Average sample sizes for each trial pathway
