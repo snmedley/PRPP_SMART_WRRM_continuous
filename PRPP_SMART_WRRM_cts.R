@@ -24,9 +24,9 @@ confint.geeglm <- function(object, parm, level = 0.95, ...) {
 ##### Choose Data Generation Settings #####
 # Choose home directory where the data generation file is stored. Files for data generation scenarios
 # must be in a folder named "Scenarios" within the home directory.
-homedir = "C:/Users/snmed/OneDrive/Documents/GSRA/Project_PCORI_PRPP/ContinuousOutcome/GitHubCode"
+homedir = "C:/Users/username/homedir"
 # Choose a directory for output files. The directory is set to homedir by default. 
-outdir = "C:/Users/snmed/OneDrive/Documents/GSRA/Project_PCORI_PRPP/ContinuousOutcome/GitHubCode/Results"
+outdir = homedir
 # Choose sample size
 N = 500
 # Choose preference/response rate scenario by setting scenario = a, b, or c
@@ -625,3 +625,4 @@ pathway_n_dtr_df <- data.frame(Pathway = c("RAR",
                                          n_PBNRPD_avg))
 
 write.csv(pathway_n_dtr_df, paste0(outdir, "/PathwayN_Scenario", type, scenario, "_", size, "Effects_Sigma2_", sigma2, "_N_", N, "_NSim", n.sim, ".csv"), row.names=FALSE)
+
