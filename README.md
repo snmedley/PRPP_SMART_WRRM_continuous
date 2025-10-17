@@ -61,4 +61,5 @@ Output:
 We illustrate our methods restricted to a set of 14 viable DTRs in a data example with two empty trial pathways. See Supplement D in the manuscript.
 
 Input: Sparsity_DataExample.csv
+
 Analysis Code: Sparsity_DataExample_Analysis.R
