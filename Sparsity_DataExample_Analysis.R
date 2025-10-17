@@ -115,5 +115,5 @@ DTR_hat_2_mod <- round(contrast_dtr_2_mod %*% model2_mod$coefficients,2)
 DTR_hat_mod = data.frame(DTR_hat_1_mod, DTR_hat_2_mod)
 rownames(DTR_hat_mod) = c("AAC00", "AAD00", "BBC00", "BBD00", "AAC01", "BBC01", "BBD01", "AAC10", "AAD10", "BBC10", "BBD10", "AAC11", "BBC11", "BBD11")
 colnames(DTR_hat_mod) = c("Model 1 Estimates", "Model 2 Estimates")
-# DTR estimates are similar but not identical to the unrestricted analysis since we are no longer using data
-# from the AD non-responder pathways with a stage 2 preference
+# DTR estimates are similar but not identical to the unrestricted analysis since we are no longer using the
+# replicates from responders to A which were consistent with AAD01 and AAD11
