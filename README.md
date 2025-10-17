@@ -56,3 +56,9 @@ Output:
 - DTR estimation summary table for Model 1, Model 2, and the traditional analysis as separate CSV files
 - Confidence interval coverage for parameters and DTRs under Model 1, Model 2, and the traditional analysis as separate CSV files
 - Average sample sizes for each trial pathway
+
+## Sparsity Data Example
+We illustrate our methods restricted to a set of 14 viable DTRs in a data example with two empty trial pathways. See Supplement D in the manuscript.
+
+Input: Sparsity_DataExample.csv
+Analysis Code: Sparsity_DataExample_Analysis.R
